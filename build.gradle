@@ -31,6 +31,7 @@ dependencies {
     compile "org.springframework.boot:spring-boot-starter-web:$spring_boot_version"
     compile "org.springframework.boot:spring-boot-starter-data-mongodb:$spring_boot_version"
     compile "org.springframework.security.oauth:spring-security-oauth2"
+    compile "org.springframework.boot:spring-boot-devtools"
     testCompile 'junit:junit'
 }
 
